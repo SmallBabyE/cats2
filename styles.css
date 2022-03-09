@@ -1,0 +1,93 @@
+body {
+    background: rgb(255, 223, 186);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.photo {
+    width: 450px;
+    border-radius: 30px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+.style {
+    max-width: 950px;
+    margin: auto;
+}
+.zag {
+    background-color: rgb(82, 59, 18);
+    color: rgb(255, 223, 186);
+    padding: 15px 15px;
+    border-radius: 28px;
+    margin-bottom: 15px;
+    display: flex;
+}
+.zag-text {
+    margin-left: 10px;
+}
+.shot {
+    background-color: rgb(124, 89, 29);
+    color: rgb(255, 223, 186);
+    padding: 15px 15px;
+    border-radius: 28px;
+    margin-bottom: 15px;
+    display: flex;
+}
+.photo-shot {
+    width: 450px;
+    border-radius: 30px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+
+}
+.shot-text {
+    margin-left: 10px;
+}
+.brit {
+    background-color: rgb(82, 59, 18);
+    color: rgb(255, 223, 186);
+    padding: 15px 15px;
+    border-radius: 28px;
+    margin-bottom: 15px;
+    display: flex;
+}
+.photo-brit {
+    width: 450px;
+    border-radius: 30px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+.brit-text {
+    margin-left: 10px;
+}
+.siam {
+    background-color: rgb(124, 89, 29);
+    color: rgb(255, 223, 186);
+    padding: 15px 15px;
+    border-radius: 28px;
+    margin-bottom: 15px;
+    display: flex;
+}
+.photo-siam {
+    width: 450px;
+    border-radius: 30px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+.siam-text {
+    margin-left: 10px;
+}
+@media (max-width: 700px){
+    .zag{
+        display: block;
+        text-align:center;
+    }
+@media (max-width: 700px){
+    .shot{
+        display: block;
+        text-align:center;
+    }
+@media (max-width: 700px){
+    .brit{
+        display: block;
+        text-align:center;
+    }
+@media (max-width: 700px){
+    .siam{
+        display: block;
+        text-align:center;
+    }    
